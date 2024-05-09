@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CeiboTutorialClase2.props" />
+</Project>

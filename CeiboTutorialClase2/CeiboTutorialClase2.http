@@ -1,0 +1,6 @@
+@CeiboTutorialClase2_HostAddress = http://localhost:5064
+
+GET {{CeiboTutorialClase2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
