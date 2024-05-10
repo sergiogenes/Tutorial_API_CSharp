@@ -12,56 +12,68 @@ namespace CeiboTutorialClase2.Infrasctructure
             {
                 Id= 1,
                 Name="Sergio",
-                LastName="Milla"
+                LastName="Milla",
+                Email="sergiomilla@ceibodigital.com" 
             },
             new User
             {
                 Id= 2,
                 Name="Sergio",
-                LastName="Genes"
+                LastName="Genes",
+                Email="sergiogenes@ceibodigital.com",
+                Role= "Administrator"
             },
             new User
             {
                 Id= 3,
                 Name="Ezequiel",
-                LastName="Ibarra"
+                LastName="Ibarra",
+                Email="ezequielibarra@ceibodigital.com"
             },
             new User 
             {
                 Id = 4,
                 Name = "Tomás",
-                LastName = "Apochian"
+                LastName = "Apochian",
+                Email="tomasapochian@ceibodigital.com"
             },
             new User
             {
                 Id= 5,
                 Name="David",
-                LastName="Wilson"
+                LastName="Wilson",
+                Email="davidwilson@ceibodigital.com"
+
 
             },
             new User
             {
                 Id=6,
                 Name="Malena",
-                LastName="Burns"
+                LastName="Burns",
+                Email="malenaburns@ceibodigital.com"
             },
             new User
             {
                 Id=7,
                 Name="Lucio",
-                LastName="Flores"
+                LastName="Flores",
+                Email="lucioflores@ceibodigital.com"
             },
             new User
             {
                 Id=8,
                 Name="Dwan",
-                LastName="Flores Montenegro"
+                LastName="Flores Montenegro",
+                Email="dwanfmontenegro@ceibodigital.com"
+
             },
             new User
             {
                 Id=9,
                 Name="Jaziel",
-                LastName="Flores Montenegro"
+                LastName="Flores Montenegro",
+                Email="jazielfmontenegro@ceibodigital.com"
             },
         ];
     }

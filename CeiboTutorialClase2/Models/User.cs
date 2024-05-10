@@ -1,4 +1,5 @@
 ﻿using CeiboTutorialClase2.Dto;
+using System.Text.Json.Serialization;
 
 namespace CeiboTutorialClase2.Models
 {
@@ -10,16 +11,14 @@ namespace CeiboTutorialClase2.Models
 
         public required string LastName { get; set; }
 
-        public string? Password { get; set; } = "Este es el password superr secreto del usuario"; 
+        public string Email { get; set; }
+
+        [JsonIgnore]
+        public string? Password { get; set; } = "123456";
+
+        public string Role { get; set; } = "User";
 
         public string FullName => $"{Name} {LastName}";   // public string FullName {get => $"{Name} {LastName}" ; } Sería lo mismo
 
-        public ViewUser view => new ViewUser
-        {
-            Id = this.Id,
-            Name = this.Name,
-            LastName = this.LastName,
-
-        };
     }
 }

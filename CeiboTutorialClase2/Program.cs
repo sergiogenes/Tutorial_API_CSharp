@@ -7,6 +7,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Autenticación
+builder.Services.AddAuthentication().AddBearerToken();
+
+builder.Services.AddAuthorization(opt =>
+{
+    opt.AddPolicy("Administrator Policy", policy => policy.RequireRole("Administrator"));
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -18,6 +26,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthorization();
 app.UseAuthorization();
 
 app.MapControllers();

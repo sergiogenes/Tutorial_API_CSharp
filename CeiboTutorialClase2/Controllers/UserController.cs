@@ -1,6 +1,7 @@
 ﻿using CeiboTutorialClase2.Dto;
 using CeiboTutorialClase2.Infrasctructure;
 using CeiboTutorialClase2.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace CeiboTutorialClase2.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Administrator")]                        //[Authorize(Policy = "Administrator Policy")]
     public class UserController : ControllerBase
     {
         [HttpGet]
@@ -22,9 +24,9 @@ namespace CeiboTutorialClase2.Controllers
             
             var users = Database.Users.Skip((page - 1) * limit).Take(limit);
 
-            var viewUsers = users.Select(u => u.view );
+            //var viewUsers = users.Select(u => u.view );
 
-            return Ok(viewUsers);
+            return Ok(users);
         }
 
         [HttpGet("{id}")]
@@ -37,7 +39,7 @@ namespace CeiboTutorialClase2.Controllers
                 return NotFound("Usuario no encontrado");
             }
 
-            return Ok(user.view);
+            return Ok(user);
         }
 
         [HttpPost]
