@@ -8,5 +8,8 @@ namespace CeiboTutorialClase2.Dto
         public required string Name { get; set; }
         [Required]
         public required string LastName { get; set; }
+
+        [Required]
+        public required string Email { get; set; }
     }
 }

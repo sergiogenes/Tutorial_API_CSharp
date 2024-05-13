@@ -1,6 +1,7 @@
 ﻿using CeiboTutorialClase2.Dto;
 using CeiboTutorialClase2.Infrasctructure;
 using CeiboTutorialClase2.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,7 @@ namespace CeiboTutorialClase2.Controllers
     public class UserController : ControllerBase
     {
         [HttpGet]
+        [Authorize(Roles = "Administrator")]                        //[Authorize(Policy = "Administrator Policy")]
         
         public IActionResult GetAll([FromQuery] int page = 1, [FromQuery] int limit = 3 )
         {
@@ -22,12 +24,13 @@ namespace CeiboTutorialClase2.Controllers
             
             var users = Database.Users.Skip((page - 1) * limit).Take(limit);
 
-            var viewUsers = users.Select(u => u.view );
+            //var viewUsers = users.Select(u => u.view );
 
-            return Ok(viewUsers);
+            return Ok(users);
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "User")]
         public IActionResult Get(int id) 
         {
             var user = Database.Users.FirstOrDefault(u => u.Id == id);
@@ -37,7 +40,7 @@ namespace CeiboTutorialClase2.Controllers
                 return NotFound("Usuario no encontrado");
             }
 
-            return Ok(user.view);
+            return Ok(user);
         }
 
         [HttpPost]
@@ -47,6 +50,7 @@ namespace CeiboTutorialClase2.Controllers
             {
                 Name = user.Name,
                 LastName = user.LastName,
+                Email = user.Email
             };
             
             newUser.Id = Database.Users.Last().Id + 1;
