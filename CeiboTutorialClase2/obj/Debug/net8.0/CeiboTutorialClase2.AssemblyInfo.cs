@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CeiboTutorialClase2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6829725b991f24f274616c021334aa9bd2b96526")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcb7be93759cd80988ef2d0c2cebaacaac2ef061")]
 [assembly: System.Reflection.AssemblyProductAttribute("CeiboTutorialClase2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CeiboTutorialClase2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
