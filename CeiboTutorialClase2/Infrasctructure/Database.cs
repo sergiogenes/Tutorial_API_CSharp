@@ -21,7 +21,7 @@ namespace CeiboTutorialClase2.Infrasctructure
                 Name="Sergio",
                 LastName="Genes",
                 Email="sergiogenes@ceibodigital.com",
-                Role= "Administrator"
+                Roles= ["Administrator", "User"]
             },
             new User
             {

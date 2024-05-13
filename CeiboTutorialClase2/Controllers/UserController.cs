@@ -9,10 +9,10 @@ namespace CeiboTutorialClase2.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Administrator")]                        //[Authorize(Policy = "Administrator Policy")]
     public class UserController : ControllerBase
     {
         [HttpGet]
+        [Authorize(Roles = "Administrator")]                        //[Authorize(Policy = "Administrator Policy")]
         
         public IActionResult GetAll([FromQuery] int page = 1, [FromQuery] int limit = 3 )
         {
@@ -30,6 +30,7 @@ namespace CeiboTutorialClase2.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "User")]
         public IActionResult Get(int id) 
         {
             var user = Database.Users.FirstOrDefault(u => u.Id == id);
@@ -49,6 +50,7 @@ namespace CeiboTutorialClase2.Controllers
             {
                 Name = user.Name,
                 LastName = user.LastName,
+                Email = user.Email
             };
             
             newUser.Id = Database.Users.Last().Id + 1;
