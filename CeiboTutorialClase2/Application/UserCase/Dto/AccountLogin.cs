@@ -1,4 +1,4 @@
-﻿namespace CeiboTutorialClase2.Modules.UserModules.Models.Dto
+﻿namespace CeiboTutorialClase2.Application.UserCase.Dto
 {
     public class AccountLogin
     {

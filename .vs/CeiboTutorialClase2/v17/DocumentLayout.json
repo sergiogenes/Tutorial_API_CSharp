@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|c:\\users\\sergi\\source\\repos\\ceibotutorialclase2\\ceibotutorialclase2\\modules\\usermodule\\servicies\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|solutionrelative:ceibotutorialclase2\\modules\\usermodule\\servicies\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|c:\\users\\sergi\\source\\repos\\ceibotutorialclase2\\ceibotutorialclase2\\modules\\usermodule\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|solutionrelative:ceibotutorialclase2\\modules\\usermodule\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|c:\\users\\sergi\\source\\repos\\ceibotutorialclase2\\ceibotutorialclase2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|solutionrelative:ceibotutorialclase2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|c:\\users\\sergi\\source\\repos\\ceibotutorialclase2\\ceibotutorialclase2\\application\\usercase\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|solutionrelative:ceibotutorialclase2\\application\\usercase\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|c:\\users\\sergi\\source\\repos\\ceibotutorialclase2\\ceibotutorialclase2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|solutionrelative:ceibotutorialclase2\\ceibotutorialclase2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|c:\\users\\sergi\\source\\repos\\ceibotutorialclase2\\ceibotutorialclase2\\modules\\usermodule\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|solutionrelative:ceibotutorialclase2\\modules\\usermodule\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|c:\\users\\sergi\\source\\repos\\ceibotutorialclase2\\ceibotutorialclase2\\infrasctructure\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|solutionrelative:ceibotutorialclase2\\infrasctructure\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|c:\\users\\sergi\\source\\repos\\ceibotutorialclase2\\ceibotutorialclase2\\domain\\entities\\usermodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D98EE2-4901-4393-8694-0247CC39FD43}|CeiboTutorialClase2\\CeiboTutorialClase2.csproj|solutionrelative:ceibotutorialclase2\\domain\\entities\\usermodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,61 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Program.cs",
               "RelativeDocumentMoniker": "CeiboTutorialClase2\\Program.cs",
               "ToolTip": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Program.cs",
               "RelativeToolTip": "CeiboTutorialClase2\\Program.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAAD0AAAAsAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAADgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:54:13.268Z"
+              "WhenOpened": "2024-05-13T21:54:13.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Modules\\UserModule\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "CeiboTutorialClase2\\Modules\\UserModule\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Modules\\UserModule\\Repositories\\UserRepository.cs*",
-              "RelativeToolTip": "CeiboTutorialClase2\\Modules\\UserModule\\Repositories\\UserRepository.cs*",
-              "ViewState": "AQIAABcAAAAAAAAAAADwvyYAAAAxAAAA",
+              "DocumentMoniker": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Infrasctructure\\Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CeiboTutorialClase2\\Infrasctructure\\Data\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Infrasctructure\\Data\\UserRepository.cs",
+              "RelativeToolTip": "CeiboTutorialClase2\\Infrasctructure\\Data\\UserRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T21:31:15.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Modules\\UserModule\\Servicies\\UserService.cs",
-              "RelativeDocumentMoniker": "CeiboTutorialClase2\\Modules\\UserModule\\Servicies\\UserService.cs",
-              "ToolTip": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Modules\\UserModule\\Servicies\\UserService.cs*",
-              "RelativeToolTip": "CeiboTutorialClase2\\Modules\\UserModule\\Servicies\\UserService.cs*",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwDIAAAAsAAAA",
+              "DocumentMoniker": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Application\\UserCase\\UserService.cs",
+              "RelativeDocumentMoniker": "CeiboTutorialClase2\\Application\\UserCase\\UserService.cs",
+              "ToolTip": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Application\\UserCase\\UserService.cs",
+              "RelativeToolTip": "CeiboTutorialClase2\\Application\\UserCase\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T20:53:50.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "CeiboTutorialClase2\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Controllers\\UserController.cs",
               "RelativeToolTip": "CeiboTutorialClase2\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAkwF8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T20:48:36.314Z"
+              "WhenOpened": "2024-05-13T20:48:36.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CeiboTutorialClase2.csproj",
               "DocumentMoniker": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\CeiboTutorialClase2.csproj",
               "RelativeDocumentMoniker": "CeiboTutorialClase2\\CeiboTutorialClase2.csproj",
@@ -96,19 +98,21 @@
               "RelativeToolTip": "CeiboTutorialClase2\\CeiboTutorialClase2.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-13T20:26:23.326Z"
+              "WhenOpened": "2024-05-13T20:26:23.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Modules\\UserModule\\Models\\User.cs",
-              "RelativeDocumentMoniker": "CeiboTutorialClase2\\Modules\\UserModule\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Modules\\UserModule\\Models\\User.cs",
-              "RelativeToolTip": "CeiboTutorialClase2\\Modules\\UserModule\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Domain\\Entities\\UserModels\\User.cs",
+              "RelativeDocumentMoniker": "CeiboTutorialClase2\\Domain\\Entities\\UserModels\\User.cs",
+              "ToolTip": "C:\\Users\\sergi\\source\\repos\\CeiboTutorialClase2\\CeiboTutorialClase2\\Domain\\Entities\\UserModels\\User.cs",
+              "RelativeToolTip": "CeiboTutorialClase2\\Domain\\Entities\\UserModels\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T19:59:11.03Z"
+              "WhenOpened": "2024-05-13T19:59:11.03Z",
+              "EditorCaption": ""
             }
           ]
         }

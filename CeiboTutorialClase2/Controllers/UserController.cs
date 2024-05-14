@@ -1,7 +1,5 @@
-﻿using CeiboTutorialClase2.Infrasctructure;
-using CeiboTutorialClase2.Modules.UserModule.Servicies;
-using CeiboTutorialClase2.Modules.UserModules.Models;
-using CeiboTutorialClase2.Modules.UserModules.Models.Dto;
+﻿using CeiboTutorialClase2.Application.UserCase;
+using CeiboTutorialClase2.Application.UserCase.Dto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

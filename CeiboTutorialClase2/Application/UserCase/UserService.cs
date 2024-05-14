@@ -1,29 +1,29 @@
-﻿using CeiboTutorialClase2.Modules.UserModule.Repositories;
-using CeiboTutorialClase2.Modules.UserModules.Models;
-using CeiboTutorialClase2.Modules.UserModules.Models.Dto;
+﻿using CeiboTutorialClase2.Application.UserCase.Dto;
+using CeiboTutorialClase2.Domain.Entities.UserModels;
+using CeiboTutorialClase2.Domain.Repositories.UserRepositories;
 
-namespace CeiboTutorialClase2.Modules.UserModule.Servicies
+namespace CeiboTutorialClase2.Application.UserCase
 {
     public class UserService
     {
-        private readonly UserRepository userRepository;
+        private readonly IUserRepository userRepository;
 
-        public UserService(UserRepository userRepository)
+        public UserService(IUserRepository userRepository)
         {
             this.userRepository = userRepository;
         }
-        public Task<User> GetByIdAsync (int id)
+        public Task<User> GetByIdAsync(int id)
         {
             return userRepository.GetByIdAsync(id);
         }
 
-        public Task<IEnumerable<User>> GetAllAsync (int page = 1, int limit = 3)
+        public Task<IEnumerable<User>> GetAllAsync(int page = 1, int limit = 3)
         {
-            
+
             return userRepository.GetAllAsync(page, limit);
         }
 
-        public async  Task<User> CreateAsync(CreateUser createUser)
+        public async Task<User> CreateAsync(CreateUser createUser)
         {
             var list = await userRepository.GetAllAsync();
 
@@ -41,7 +41,7 @@ namespace CeiboTutorialClase2.Modules.UserModule.Servicies
         public async Task<User?> UpdateAsync(int id, PartialUser partialUser)
         {
             var user = await userRepository.GetByIdAsync(id);
-            
+
             if (user == null)
             {
                 return null;
@@ -53,7 +53,7 @@ namespace CeiboTutorialClase2.Modules.UserModule.Servicies
             return await userRepository.UpdateAsync(user);
         }
 
-        public Task<User> DeleteAsync (int id)
+        public Task<User> DeleteAsync(int id)
         {
             return userRepository.DeleteAsync(id);
         }

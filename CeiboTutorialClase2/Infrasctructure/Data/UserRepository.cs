@@ -1,27 +1,26 @@
-﻿using CeiboTutorialClase2.Modules.UserModules.Models.Dto;
-using CeiboTutorialClase2.Modules.UserModules.Models;
-using CeiboTutorialClase2.Infrasctructure;
+﻿using CeiboTutorialClase2.Domain.Entities.UserModels;
+using CeiboTutorialClase2.Domain.Repositories.UserRepositories;
 
-namespace CeiboTutorialClase2.Modules.UserModule.Repositories
+namespace CeiboTutorialClase2.Infrasctructure.Data
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly List<User> users;
-        public UserRepository() 
+        public UserRepository()
         {
-            this.users = Database.Users;
+            users = Database.Users;
         }
 
         public Task<User?> GetByIdAsync(int id)
         {
-            var user = this.users.FirstOrDefault(user => user.Id == id);
+            var user = users.FirstOrDefault(user => user.Id == id);
 
             return Task.FromResult(user);
         }
 
         public Task<IEnumerable<User>> GetAllAsync(int page = 1, int limit = 3)
         {
-            var list = this.users.Skip((page - 1) * limit).Take(limit);
+            var list = users.Skip((page - 1) * limit).Take(limit);
 
             return Task.FromResult(list);
         }
@@ -33,7 +32,7 @@ namespace CeiboTutorialClase2.Modules.UserModule.Repositories
 
         public async Task<User?> UpdateAsync(User updatedUser)
         {
-            var user = await this.GetByIdAsync(updatedUser.Id);
+            var user = await GetByIdAsync(updatedUser.Id);
 
             user.Name = updatedUser.Name;
             user.LastName = updatedUser.LastName;
@@ -41,9 +40,9 @@ namespace CeiboTutorialClase2.Modules.UserModule.Repositories
             return user;
         }
 
-        public async Task<User> DeleteAsync (int id)
+        public async Task<User> DeleteAsync(int id)
         {
-            var user = await this.GetByIdAsync(id);
+            var user = await GetByIdAsync(id);
 
             if (user == null)
             {

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace CeiboTutorialClase2.Modules.UserModules.Models
+namespace CeiboTutorialClase2.Domain.Entities.UserModels
 {
     public class User
     {

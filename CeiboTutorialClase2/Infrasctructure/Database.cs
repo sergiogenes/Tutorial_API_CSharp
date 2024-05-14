@@ -1,4 +1,4 @@
-﻿using CeiboTutorialClase2.Modules.UserModules.Models;
+﻿using CeiboTutorialClase2.Domain.Entities.UserModels;
 using System.Xml.Linq;
 
 namespace CeiboTutorialClase2.Infrasctructure

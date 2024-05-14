@@ -1,6 +1,7 @@
-using CeiboTutorialClase2.Modules.TokenModule.Services;
-using CeiboTutorialClase2.Modules.UserModule.Repositories;
-using CeiboTutorialClase2.Modules.UserModule.Servicies;
+using CeiboTutorialClase2.Application;
+using CeiboTutorialClase2.Application.UserCase;
+using CeiboTutorialClase2.Domain.Repositories.UserRepositories;
+using CeiboTutorialClase2.Infrasctructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
@@ -59,7 +60,7 @@ builder.Services.AddTransient<TokenService>();
 builder.Services.AddTransient<UserService>();
 
 //Repositories
-builder.Services.AddTransient<UserRepository>();
+builder.Services.AddTransient<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 
