@@ -30,9 +30,9 @@ namespace CeiboTutorialClase2.Application.UserCase
             var newUser = new User
             {
                 Name = createUser.Name,
-                LastName = createUser.Name,
+                LastName = createUser.LastName,
                 Email = createUser.Email,
-                Id = list.Last().Id + 1,
+                Id = list.Any() ? list.Last().Id + 1 : 1,
             };
 
             return await userRepository.CreateAsync(newUser);

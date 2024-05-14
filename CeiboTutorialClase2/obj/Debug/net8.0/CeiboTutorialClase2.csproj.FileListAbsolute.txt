@@ -39,3 +39,16 @@ C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\ne
 C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\DnsClient.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\Snappier.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\sergi\source\repos\CeiboTutorialClase2\CeiboTutorialClase2\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
