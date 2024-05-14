@@ -13,7 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("807b2f64-c966-4d26-8404-892054ae9907")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CeiboTutorialClase2")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a69d963eaa033133bdb730da94096bdb0bdf575")]
 [assembly: System.Reflection.AssemblyProductAttribute("CeiboTutorialClase2")]

@@ -1,11 +1,11 @@
-﻿
-using CeiboTutorialClase2.Models;
+﻿using CeiboTutorialClase2.Modules.TokenModule.Models;
+using CeiboTutorialClase2.Modules.UserModules.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace CeiboTutorial.Modules.TokenModule.Services
+namespace CeiboTutorialClase2.Modules.TokenModule.Services
 {
 
     public class TokenService(IConfiguration configuration)

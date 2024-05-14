@@ -1,6 +1,6 @@
-﻿using CeiboTutorial.Modules.TokenModule.Services;
-using CeiboTutorialClase2.Dto;
-using CeiboTutorialClase2.Infrasctructure;
+﻿using CeiboTutorialClase2.Infrasctructure;
+using CeiboTutorialClase2.Modules.TokenModule.Services;
+using CeiboTutorialClase2.Modules.UserModules.Models.Dto;
 using Microsoft.AspNetCore.Authentication.BearerToken;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

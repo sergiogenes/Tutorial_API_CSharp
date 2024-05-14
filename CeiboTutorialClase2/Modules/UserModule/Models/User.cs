@@ -1,7 +1,6 @@
-﻿using CeiboTutorialClase2.Dto;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
-namespace CeiboTutorialClase2.Models
+namespace CeiboTutorialClase2.Modules.UserModules.Models
 {
     public class User
     {

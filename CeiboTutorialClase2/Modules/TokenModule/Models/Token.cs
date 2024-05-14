@@ -1,4 +1,4 @@
-﻿namespace CeiboTutorialClase2.Models
+﻿namespace CeiboTutorialClase2.Modules.TokenModule.Models
 {
     public class Token
     {
